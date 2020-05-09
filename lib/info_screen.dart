@@ -13,7 +13,7 @@ class _InfoScreenState extends State<InfoScreen> {
   double offset = 0;
 
   @override
-  void inistate() {
+  void initstate() {
     super.initState();
     controller.addListener(onScroll);
   }
